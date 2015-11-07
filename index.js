@@ -12,6 +12,6 @@ function maxMirrorLength() {
   return Math.max.apply(Math, mirrorLengths);
 }
 
-export default function() {
+module.exports = function() {
   return maxGetRequestLength - (maxMirrorLength() + '/downloads/range/last-month/'.length);
-}
+};
