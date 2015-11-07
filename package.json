@@ -1,0 +1,28 @@
+{
+  "name": "max-bin-size",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm-registry": "~0.1.13",
+    "object-values": "~1.0.0"
+  },
+  "devDependencies": {
+    "jscs": "~2.5.1",
+    "jscs-preset-mrjoelkemp": "~1.0.0",
+    "jshint": "~2.8.0"
+  },
+  "scripts": {
+    "test": "jscs */.js && jshint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packagestats/max-bin-size.git"
+  },
+  "author": "Joel Kemp <joel@mrjoelkemp.com> (http://www.mrjoelkemp.com/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/packagestats/max-bin-size/issues"
+  },
+  "homepage": "https://github.com/packagestats/max-bin-size#readme"
+}
